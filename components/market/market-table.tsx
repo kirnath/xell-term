@@ -92,7 +92,7 @@ export function MarketTable({
                           }`}
                         />
                       </Button> */}
-                      <Image src={token.image} alt={`${token.name}`} width={20} height={20} />
+                      <Image src={token.image || "placeholder.svg"} alt={`${token.name}`} width={20} height={20} />
                       <div>
                         <div className="text-green-300 font-bold text-xs sm:text-sm hover:cursor-pointer hover:underline">${token.symbol}</div>
                         <div className="text-green-500/70 text-xs truncate max-w-20 sm:max-w-none">
