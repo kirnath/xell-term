@@ -8,7 +8,7 @@ interface TerminalMessageProps {
 export function TerminalMessage({ role, content }: TerminalMessageProps) {
   const isUser = role === "user"
   const Icon = isUser ? User : Bot
-  const username = isUser ? "trader" : "Xell"
+  const username = isUser ? "trader" : "xell"
   const textColor = isUser ? "text-white" : "text-green-300"
   const promptColor = isUser ? "text-cyan-400" : "text-green-400"
 

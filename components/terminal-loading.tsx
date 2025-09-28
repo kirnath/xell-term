@@ -17,7 +17,7 @@ export function TerminalLoading() {
     <div className="flex items-center gap-2">
       <div className="flex items-center gap-1 text-green-400">
         <Bot className="w-4 h-4" />
-        <span className="text-xs font-mono">Xell@engine-1:</span>
+        <span className="text-xs font-mono">cloud@xell-term-1:</span>
       </div>
       <div className="flex items-center gap-2 text-green-300 font-mono">
         <span className="animate-pulse">Thinking...</span>
