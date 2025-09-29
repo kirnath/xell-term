@@ -70,7 +70,7 @@ export default function AboutPage() {
           <div className="border border-green-400/30 p-4 bg-green-400/5">
             <h2 className="text-green-300 font-mono text-lg mb-3">$XELL</h2>
             <p className="text-green-500/90 font-mono text-sm leading-relaxed">
-              MINT_COMINGSOON
+              HSFDVkfbiTdYNrvo6oLxx76AvR1USAi6ivjEz3rrpump
             </p>
           </div>
 

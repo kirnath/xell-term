@@ -3,7 +3,7 @@
 export async function POST(req: Request) {
 
     try{
-        const response = await fetch(`${process.env.BACKEND_API_URL}/price?token=MINT_COMINGSOON&priceChanges=true`, {
+        const response = await fetch(`${process.env.BACKEND_API_URL}/price?token=HSFDVkfbiTdYNrvo6oLxx76AvR1USAi6ivjEz3rrpump&priceChanges=true`, {
         headers: {
             ...(process.env.BACKEND_API_KEY && { "x-api-key": `${process.env.BACKEND_API_KEY}` }),
             "Content-Type": "application/json",
